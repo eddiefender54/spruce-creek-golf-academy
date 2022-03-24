@@ -227,6 +227,10 @@ address {
   margin-right: 3rem;
 }
 
+.v1_golf {
+  margin-top: 150px;
+}
+
 .v1_golf p {
   padding: 2rem;
   font: 500 13px/1.9em "Open Sans", Arial, sans-serif;
@@ -296,6 +300,7 @@ address {
 
 .youtube {
   background-image: linear-gradient(180deg, #fff 0%,#f2f2f2 100%);
+  margin-top: 150px;
 }
 
 .rates_img {
@@ -314,6 +319,7 @@ address {
 
 .rates {
   display:grid;
+  margin-top: 100px;
     
 }
 
