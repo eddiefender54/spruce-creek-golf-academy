@@ -310,21 +310,28 @@ address {
 
 
 
-.rates {
+/* .rates {
   display: flex;
   flex-direction: column;
+  justify-content: space-between; */
   /* padding: 10px;
 	background-image: linear-gradient(180deg, #fff 0%,#f2f2f2 100%);
   border-radius: 5px;
 	margin: 45px auto; */
-}
+/* } */
 
-/* .rates {
+
+.rates {
   display:grid;
   margin-top: 100px;
-    
-} */
+}
 
+.item {
+  display: flex;
+  justify-content: space-between;
+
+
+}
 .left-text {
   display: inline-block;
   vertical-align: middle;
