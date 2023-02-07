@@ -329,21 +329,11 @@ address {
 .item {
   display: flex;
   justify-content: space-between;
-
-
-}
-.left-text {
-  display: inline-block;
-  vertical-align: middle;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.middle-text {
-  text-align: center;
-}
 
-.right-text {
-  float: right;
-}
 
 .rates a {
   color: #fff;
