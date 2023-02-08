@@ -326,13 +326,6 @@ address {
   margin-top: 100px;
 }
 
-.item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 
 
 .rates a {
@@ -348,6 +341,12 @@ address {
 }
 
 .item {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; */
+  
+  text-align: center;
 	color: #fff;
 	padding: 15px;
 	margin: 5px;	
@@ -355,9 +354,24 @@ address {
 	border-radius: 3px;
 }
 
+.item a {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom:  1rem;
+}
+
 .social img {
   max-height: 28px;
 }
+
+.left-text, .middle-text, .right-text {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+
 
 
 
@@ -383,6 +397,9 @@ address {
   }
 }
 
+
+
+
 @media screen and (max-width: 1014px) {
   .v1 {
     margin: 0 auto;
@@ -399,6 +416,8 @@ address {
     padding-bottom: 2rem;
   }
 }
+
+
 
 
 
@@ -445,7 +464,41 @@ address {
     margin: auto;
   }
 
+  .middle-text {
+    flex-grow:  2;
+  }
+
+
+
+ 
   
+}
+
+
+@media screen and (min-width: 767px) {
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .left-text {
+    flex: 1;
+    text-align: left;
+  }
+
+  .middle-text {
+    flex: 1;
+  }
+
+  .right-text {
+    flex: 1;
+    text-align: right;
+  }
+
+
+
 }
 
 @media screen and (max-width: 525px) {
