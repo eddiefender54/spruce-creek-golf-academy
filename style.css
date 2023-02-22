@@ -347,11 +347,36 @@ address {
   flex-wrap: wrap; */
   
   text-align: center;
-	color: #fff;
 	padding: 15px;
 	margin: 5px;	
-	background: #073f6f;
 	border-radius: 3px;
+}
+
+.item-2,
+.item-4 {
+  background: #073f6f;
+  color: #fff;
+}
+
+
+.item-2:hover,
+.item-4:hover {
+  background: #073e6fb5;
+  color: #fff;
+}
+
+.item-1,
+.item-3,
+.item-5 {
+  background: #2e5d88;
+  color: #fff;
+}
+
+.item-1:hover,
+.item-3:hover,
+.item-5:hover {
+  background: #40678bc5;
+  color: #fff;
 }
 
 .item a {
